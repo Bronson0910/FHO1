@@ -7,8 +7,14 @@
 </head>
 <body>
     <table class="moneyTable"> 
-        <caption>Invoice Tabular Data</caption>
     <thead>
+        <tr>
+          <td colspan="3" align="center"><h2>Invoice Tabular Data</h2>
+          </td>
+        </tr>
+      </thead>
+        
+      <tbody>
         <tr>
            <th align="left">Invoice New Customer</th>
            <th align="Right" colspan="3">April 18, 2025</th>
@@ -21,12 +27,9 @@
 
           <td class="grayCell" colspan="2"><strong>Customer:</strong><br>Wilbronson Gonao<br>1080 Kundiman St.<br>
             Region VI:NA321567
-            </td>
+          </td>
         </tr>
 
-    </thead>
-       
-    <tbody>
        <tr>
          <th align="left">Name / Description</th>
          <th align="left">Qty.</th>
@@ -59,7 +62,7 @@
        
        <tr>
          <td><strong>Tax</strong></td>
-         <td align="center" colspan="2">10%</td>
+         <td align="center" colspan="2">10</td>
        </tr>
     </tbody>
        
@@ -77,13 +80,20 @@
 
   <form>
     <table class="formTable">
-    <caption>Physical Test Form</caption>
+
     <thead>
+      <tr>
+        <td colspan="3" align="center">
+          <h2>Physical Test Form</h2>
+        </td>
+      </tr>
+    </thead>
+
+    <tbody>
       <tr>
         <th>Name</th> <th>Value</th>
       </tr>
-    </thead>
-    <tbody>
+    
       <tr>
         <td><label for="name">Name: </label></td>
         <td><input type="text" name="name" size="50" placeholder="Input your name" maxlength ="60" autofocus required></td>
@@ -165,8 +175,6 @@
     </tfoot>
     </table>
   </form>
-  
-
 
 </body>
 </html>
