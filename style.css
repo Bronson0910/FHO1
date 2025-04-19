@@ -35,9 +35,10 @@
   color:white;  
 }
   
- .formTable td{
-  padding:10px;
- }
+ thead td{
+    background-color: lightpink;
+    color:white;
+  }
   
   input [type=text], textarea, select{
     padding: 12px 20px; 
